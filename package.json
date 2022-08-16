@@ -1,0 +1,22 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This project is the boilerplate for Pokedex monorepo!!",
+  "main": "index.js",
+  "workspaces": [
+    "poke-web"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
