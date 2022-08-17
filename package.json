@@ -10,13 +10,18 @@
   "scripts": {
     "start:web": "npm run start --workspace=poke-web",
     "build:web": "npm run build --workspace=poke-web",
-    "test:web": "npm run test --workspace=poke-web"
+    "test:web": "npm run test --workspace=poke-web",
+    "lint": "eslint ./poke-web"
   },
   "eslintConfig": {
+    "ignorePatterns": "build",
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "env": {
+      "jest": true
+    }
   },
   "keywords": [],
   "author": "",
