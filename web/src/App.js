@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import Pokedex from './components/Pokedex';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import Sidebar from './components/Sidebar';
-import './App.css';
+import logo from './logo.svg'
+import Pokedex from './components/Pokedex'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Sidebar from './components/Sidebar'
+import './App.css'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Footer />
       </footer>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
