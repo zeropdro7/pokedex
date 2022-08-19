@@ -12,15 +12,11 @@ function App() {
       <header className="App-header">
         <Header />
         <Navbar />
-        <br/>
         <img src={logo} className="App-logo" alt="logo" />
-        <br/>
       </header>
-      <body>
-        <Sidebar />
-        <Pokedex />
-      </body>
       <footer>
+        <Sidebar />
+        <Pokedex name="POKEDEX Z" />
         <Footer />
       </footer>
     </div>

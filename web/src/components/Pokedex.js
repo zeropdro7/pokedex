@@ -1,14 +1,11 @@
 import React from "react";
 
-function Pokedex() {
+function Pokedex(props) {
   return (
     <div>
-      <br/>
-      <div>
-        <h1>
-          POKEDEX
-        </h1>
-      </div>
+      <h1>
+        {props.name}
+      </h1>
     </div>
   );
 }
